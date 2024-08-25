@@ -25,14 +25,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfO-5z-xJh">
+                                <rect key="frame" x="20" y="763" width="353" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Continue"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="hhH-92-jBR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="TOi-HL-kGb"/>
+                            <constraint firstItem="NfO-5z-xJh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="UQy-ME-mce"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NfO-5z-xJh" secondAttribute="trailing" constant="20" id="cL4-Y5-HSR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hhH-92-jBR" secondAttribute="trailing" constant="20" id="tCR-yV-Ug1"/>
                             <constraint firstItem="sfH-P8-ntT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tMZ-wj-0MH"/>
                             <constraint firstItem="hhH-92-jBR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tSg-d5-zAJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NfO-5z-xJh" secondAttribute="bottom" constant="20" id="xIZ-qN-alX"/>
                             <constraint firstItem="sfH-P8-ntT" firstAttribute="top" secondItem="hhH-92-jBR" secondAttribute="bottom" constant="20" id="z6E-mS-RcN"/>
                         </constraints>
                     </view>
